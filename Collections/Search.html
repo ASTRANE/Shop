@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="nav-div">
+        <button onclick="navclose()"><i class="fa-solid fa-x"></i></button>
+        <input type="text" id="search-box">
+        <button class="header-button" onclick="search()"><i class="fa-solid fa-magnifying-glass header-icons"></i></button>
+        <nav class="nav-portrait">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="/Collections/Jacket.html">Jacket</a></li>
+            <li><a href="/Collections/Pants.html">Pants</a></li>
+            <li><a href="/Collections/Shorts.html">Shorts</a></li>
+            <li><a href="/Collections/T-Shirt.html">T-Shirt</a></li>
+        </nav>
+    </div>
+    <header class="header-portrait">
+        <img src="../Assets/Logos/logo.png">
+       
+        <div>
+            <a><i class="fa-solid fa-user header-icons"></i></a>
+            <a><i class="fa-solid fa-cart-shopping header-icons"></i></a>
+            <button class="header-button" onclick="navopen()"><i class="fa-solid fa-bars header-icons"></i></button>
+        </div>
+    </header>
+    <header class="header-landscape">
+        <img src="../Assets/Logos/logo.png">
+        <nav>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="/Collections/Jacket.html">Jacket</a></li>
+            <li><a href="/Collections/Pants.html">Pants</a></li>
+            <li><a href="/Collections/Shorts.html">Shorts</a></li>
+            <li><a href="/Collections/T-Shirt.html">T-Shirt</a></li>
+        </nav>
+        <div>
+            <input type="text" id="search-box">
+            <button class="header-button" onclick="search()"><i class="fa-solid fa-magnifying-glass header-icons"></i></button>
+            <a><i class="fa-solid fa-user header-icons"></i></a>
+            <a><i class="fa-solid fa-cart-shopping header-icons"></i></a>
+        </div>
+    </header>
+    <script src="../main.js"></script>
+</body>
+</html>
